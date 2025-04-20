@@ -17,7 +17,7 @@ KNOWN_WIDTH = 60  # Adjust based on real object size (cm)
 FOCAL_LENGTH = 800  # Adjust based on camera calibration
 
 def calculate_distance(focal_length, known_width, width_in_frame):
-    return (known_width * focal_length) / width_in_frame
+    return (known_width * focal_length) / width_in_frame)
 
 # Open webcam
 cap = cv2.VideoCapture(0)
